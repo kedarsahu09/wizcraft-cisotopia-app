@@ -1,0 +1,25 @@
+Wiztopia Draft Pricing Strategy
+Draft Version: 1.0
+Date: December 10, 2025
+Author: Pricing Analyst, Luna Hart
+Sensitivity: Confidential
+
+Purpose:
+This draft outlines proposed pricing for 2026 promos. Subject to review.
+
+Pricing Tiers:
+- Basic Toys: $10-20, apply 10% discount (e.g., WIZ-BSC-111).
+- Premium Gadgets: $50+, 20-30% off for VIPs.
+
+Calculations:
+| Product | Base Price | Promo Discount | Final Price |
+|---------|------------|----------------|-------------|
+| Magic Wand | $15 | 10% (WIZ-WND-222) | $13.50 |
+| Enchanted Doll | $25 | 20% (WIZ-DOL-333) | $20.00 |
+| Flying Broom Kit | $60 | 30% (WIZ-BRM-444) | $42.00 |
+
+Assumptions:
+- Cost of goods: 40% margin.
+- Expected volume: 100K units.
+
+Notes: Keep confidential until approved.

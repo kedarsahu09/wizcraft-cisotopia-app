@@ -1,0 +1,206 @@
+[data-role="side_cart"] {
+    background-color: white;
+    height: 100%;
+    width: 420px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+[data-role="side_cart"][data-showing="not_showing"] {
+    visibility: hidden;
+}
+[data-role="side_cart"][data-showing="showing"] {
+    visibility: visible;
+}
+[data-role="side_cart_header"] {
+    background-color: #0254ec;
+    height: 69px;
+    border-bottom: 3px solid #ffbfff;
+}
+[data-role="side_cart_header"] span {
+    color: white;
+    font-size: 14px;
+    margin-top: 24px;
+    display: inline-block;
+    margin-left: 12px;
+}
+[data-role="side_cart_header"] span em {
+    font-size: 24px;
+}
+[data-role="side_cart_header"] svg {
+    fill: white;
+    cursor: pointer;
+    opacity: 1;
+    float: right;
+    margin-top: 23px;
+    margin-right: 14px;
+}
+[data-role="side_cart_header"] svg:hover {
+    opacity: 0.8;
+}
+[data-role="empty_cart"] {
+    font-size: 20px;
+    display: block;
+    margin-top: 62%;
+    text-align: center;
+}
+[data-role="cart_item"] {
+    background-color: white;
+    padding: 24px;
+    border-bottom: 1px solid #edebf2;
+    position: relative;
+}
+
+[data-role="cart_image"] {
+    background-color: white;
+    border: 1px solid #edebf2;
+    width: 75px;
+}
+[data-role="cart_item_name"] {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-left: 9px;
+    color: #383838;
+    width: 40%;
+    letter-spacing: 0;
+}
+[data-role="old_cart_item_price"]{
+    text-decoration: line-through;
+}
+[data-role="promo_code_container"] {
+    margin-top: 12px;
+}
+[data-role="promo_code_container"][data-showing="not_showing"] {
+    display: none;
+}
+[data-role="promo_code_container"][data-showing="showing"] {
+    display: block;
+}
+[data-role="enter_promo_code_wrapper"] {
+    margin-top: 24px;
+    display: block;
+    padding-bottom: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+[data-role="promo_input"] {
+    border: 1px solid grey;
+    padding: 12px 12px;
+    font-size: 15px;
+    width: 240px;
+}
+[data-role="promo_input_btn"] {
+    background: lightgrey;
+    padding: 12px 24px;
+    margin-left: 12px;
+    margin-bottom: 6px;
+    color: white;
+    border: 1px solid transparent;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+[data-role="enter_promo_code_container"] {
+    height: 20%;
+    border-top: 1px solid #f6f3f3;
+}
+[data-role="enter_promo_code_link"] {
+    color: #0254ec;
+    vertical-align: middle;
+}
+[data-role="enter_promo_code_svg"] {
+    fill: #0254ec;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+[data-role="invalid_wrapper"] {
+}
+[data-role="invalid_wrapper"] svg {
+    fill: #df3132;
+    vertical-align: middle;
+}
+[data-role="invalid_wrapper"] span {
+    color: #df3132;
+    vertical-align: middle;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+[data-role="invalid_wrapper"][data-showing="not_showing"] {
+    display: none;
+}
+[data-role="invalid_wrapper"][data-showing="showing"] {
+    display: block;
+}
+[data-role="cart_estimated_wrapper"] {
+    margin-top: 24px;
+    text-align: center;
+}
+[data-role="product_list_wrapper"] {
+    height: 80%;
+    overflow: auto;
+}
+[data-role="estimated_total_top"]{
+    display: block;
+    text-align: left;
+}
+[data-role="estimated_total_top"] > span{
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+[data-role="estimated_price"]{
+    float: right;
+    margin-right: 12px;
+}
+
+[data-role="taxes"]{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    padding: 16px 12px;
+    text-align: left;
+}
+[data-role="buy_now"]{
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    padding: 12px 0px;
+    cursor: pointer;
+    width: 80%;
+    letter-spacing: 0;
+    transition: background-color 0.24s ease 0s, color 0.24s ease 0s
+}
+[data-role="buy_now"]:hover{
+    background-color: grey;
+    text-decoration: underline;
+    color: white;
+}
+
+[data-role="secure_checkout"]{
+    display: block;
+    margin-top: 12px;
+}
+
+[data-role="secure_checkout"] > svg{
+    margin-right: 12px;
+    vertical-align: middle;
+}
+[data-role="secure_checkout"] > span{
+    font-size: 14px;
+    letter-spacing: 0;
+       vertical-align: text-bottom;
+}
+[data-role="cart_delete"]{
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    cursor: pointer;
+}
+[data-role="cart_item_price"]{
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+}

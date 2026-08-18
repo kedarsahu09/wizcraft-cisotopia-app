@@ -1,0 +1,25 @@
+{
+  "name": "wiztopia-frontend",
+  "version": "2.0.0",
+  "description": "Wiztopia Cyber Security Toy Store frontend server",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "16.0.6",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.3",
+    "typescript": "^5.0.0"
+  }
+}

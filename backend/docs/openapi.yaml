@@ -1,0 +1,224 @@
+openapi: 3.0.0
+info:
+  title: Wiztopia Backend API
+  version: 1.0.0
+  description: API for the Wiztopia Cyber Security Toy Store backend.
+servers:
+  - url: process.env.NODE_ENV.BASE_URL_STR || http://localhost:4000
+    description: Local Development Server
+paths:
+  /healthz:
+    get:
+      summary: Health Check
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+  /products/toys:
+    get:
+      summary: Get all toy products
+      responses:
+        '200':
+          description: A list of toy products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+  /products/tshirts:
+    get:
+      summary: Get all t-shirt products
+      responses:
+        '200':
+          description: A list of t-shirt products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+  /products/candles:
+    get:
+      summary: Get all candle products
+      responses:
+        '200':
+          description: A list of candle products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+  /cart:
+    get:
+      summary: Get the current user's cart
+      responses:
+        '200':
+          description: The current cart
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Cart'
+    delete:
+      summary: Clear the current user's cart
+      responses:
+        '204':
+          description: Cart cleared successfully
+  /cart/items:
+    post:
+      summary: Add an item to the cart
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - productId
+                - quantity
+              properties:
+                productId:
+                  type: string
+                  example: vulnerflipper-spatula
+                quantity:
+                  type: integer
+                  example: 1
+      responses:
+        '200':
+          description: Cart with added item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Cart'
+        '404':
+          description: Product not found
+  /cart/items/{productId}:
+    put:
+      summary: Update an item's quantity in the cart
+      parameters:
+        - in: path
+          name: productId
+          required: true
+          schema:
+            type: string
+          description: The ID of the product to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - quantity
+              properties:
+                quantity:
+                  type: integer
+                  example: 2
+      responses:
+        '200':
+          description: Cart with updated item quantity
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Cart'
+        '400':
+description: Invalid quantity
+    delete:
+      summary: Remove an item from the cart
+      parameters:
+        - in: path
+          name: productId
+          required: true
+          schema:
+            type: string
+          description: The ID of the product to remove
+      responses:
+        '200':
+          description: Cart with item removed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Cart'
+  /checkout:
+    post:
+      summary: Process checkout
+      responses:
+        '200':
+          description: Checkout successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Checkout successful!
+                  orderDetails:
+                    $ref: '#/components/schemas/Cart'
+        '400':
+          description: Cart is empty
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id:
+          type: string
+          example: vulnerflipper-spatula
+        name:
+          type: string
+          example: Vulnerflipper™ Spatula
+        price:
+          type: number
+          format: float
+          example: 18.00
+        images:
+          type: array
+          items:
+            type: string
+          example: ["/images/products/vulnerflipper-spatula.png"]
+        category:
+          type: string
+          example: Cybersecurity Toy
+        labels:
+          type: array
+          items:
+            type: string
+          example: ["4th of July Special"]
+        order_index:
+          type: integer
+          example: 0
+    CartItem:
+      type: object
+      properties:
+        productId:
+          type: string
+          example: vulnerflipper-spatula
+        name:
+          type: string
+          example: Vulnerflipper™ Spatula
+        price:
+          type: number
+          format: float
+          example: 18.00
+        quantity:
+          type: integer
+          example: 1
+        image:
+          type: string
+          example: /images/products/vulnerflipper-spatula.png
+    Cart:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/CartItem'

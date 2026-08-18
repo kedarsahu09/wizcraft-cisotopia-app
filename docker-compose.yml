@@ -1,0 +1,64 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      PORT: 4000
+      NODE_ENV: production
+      CORS_ORIGIN: http://localhost:3000
+      FRONTEND_URL: http://localhost:3000
+      REDIS_SESSION_URL: redis://redis-session:6379/0
+      REDIS_CART_URL: redis://redis-cart:6379/1
+      DATABASE_CLIENT: pg
+      DATABASE_URL: postgres://wiztopia:wiztopia@postgres:5432/wiztopia
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis-session:
+        condition: service_started
+      redis-cart:
+        condition: service_healthy
+    ports:
+      - "4000:4000"
+
+  redis-session:
+    image: redis:7.4.5-alpine
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - ./redis/session.conf:/usr/local/etc/redis/redis.conf:ro
+    ports:
+      - "6379:6379"
+
+  redis-cart:
+    image: redis:7.4.5-alpine
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    volumes:
+      - ./redis/cart.conf:/usr/local/etc/redis/redis.conf:ro
+    ports:
+      - "6380:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 1s
+      timeout: 3s
+      retries: 5
+      start_period: 1s
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: wiztopia
+      POSTGRES_USER: wiztopia
+      POSTGRES_PASSWORD: wiztopia
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wiztopia -d wiztopia"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:

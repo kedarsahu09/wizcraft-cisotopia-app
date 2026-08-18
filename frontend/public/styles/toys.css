@@ -1,0 +1,143 @@
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.backdrop {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.cloud {
+    position: absolute;
+    bottom: 10%;
+    width: 30%;
+}
+
+.cloud-left {
+    left: -50px;
+    transform: scaleX(-1);
+}
+
+.cloud-right {
+    right: -50px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-logo {
+    width: 600px;
+}
+
+.hero-tagline {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ffd9ff;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    margin-top: 20px;
+}
+
+.hunt-game-section {
+    position: relative;
+    background: linear-gradient(to right, #8a2be2, #ff69b4);
+    padding: 80px 20px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hunt-game-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hunt-game-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.hunt-game-text h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.start-now-button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-now-button:hover {
+    background-color: #e0509b;
+}
+
+.hunt-game-images {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+    height: 400px;
+}
+
+.twister-game-image {
+    position: absolute;
+    width: 80%;
+    max-width: 400px;
+    top: 0;
+    left: 0;
+    transform: rotate(-15deg);
+    z-index: 2;
+}
+
+.barcode-scanner-image {
+    position: absolute;
+    width: 40%;
+    max-width: 200px;
+    bottom: 0;
+    right: 0;
+    transform: rotate(15deg);
+    z-index: 3;
+}
+
+.inner_logo {
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 31%;
+}
+.cloud_left {
+    width: 28%;
+    position: absolute;
+    bottom: 19%;
+    left: -30px;
+    transform: scaleX(-1);
+}
+.cloud_right {
+    width: 28%;
+    position: absolute;
+    bottom: 19%;
+    right: -40px;
+}

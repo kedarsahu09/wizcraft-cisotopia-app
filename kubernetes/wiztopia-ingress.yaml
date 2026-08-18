@@ -1,0 +1,101 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wiztopia-backend-ingress
+  namespace: wiztopia
+  annotations:
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/group.name: wiztopia-group
+    alb.ingress.kubernetes.io/group.order: "1"  # Lower = evaluated first
+spec:
+  ingressClassName: alb
+  rules:
+    - http:
+        paths:
+          - path: /products
+            pathType: Prefix
+            backend:
+              service:
+                name: wiztopia-backend
+                port:
+                  number: 4000
+          - path: /promo
+            pathType: Prefix
+            backend:
+              service:
+                name: wiztopia-backend
+                port:
+                  number: 4000
+          - path: /cart
+            pathType: Prefix
+            backend:
+              service:
+                name: wiztopia-backend
+                port:
+                  number: 4000
+          - path: /checkout
+            pathType: Prefix
+            backend:
+              service:
+                name: wiztopia-backend
+                port:
+                  number: 4000
+          - path: /healthz
+            pathType: Prefix
+            backend:
+              service:
+                name: wiztopia-backend
+                port:
+                  number: 4000
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wiztopia-frontend-ingress
+  namespace: wiztopia
+  annotations:
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/group.name: wiztopia-group
+    alb.ingress.kubernetes.io/group.order: "100"  # Higher = evaluated after backend
+spec:
+  ingressClassName: alb
+  rules:
+    - http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: wiztopia-toystore
+                port:
+                  number: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: wiztopia-frontend-policy-shared
+  namespace: wiztopia
+spec:
+  podSelector:
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+          - wiztopia-toystore
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - ipBlock:
+            cidr: 3.130.180.219/32
+        - ipBlock:
+            cidr: 18.217.20.117/32
+        - ipBlock:
+            cidr: 18.189.24.102/32
+        - ipBlock:
+            cidr: 192.168.48.0/21

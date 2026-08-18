@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# React
+.next
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime output
+.tmp/
+.tmp-*
+coverage/
+dist/
+.build/
+backend/data/*.sqlite3
+
+# Env files
+.env
+*.env
+.env.*
+
+# Docker artifacts
+*.pid
+
+# macOS clutter
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Local demo assets/archive content (keep out of repo)
+archive/
+assets/

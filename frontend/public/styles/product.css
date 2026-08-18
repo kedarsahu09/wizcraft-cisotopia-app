@@ -1,0 +1,191 @@
+#product_list {
+    display: table;
+    padding: 32px 6px;
+}
+[data-role="product_container"] {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+[data-role="product_item"] {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 8px;
+    cursor: pointer;
+    width: 340px;
+    vertical-align: top;
+}
+[data-role="item_label"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0754ec;
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 13px;
+}
+[data-role="product_item"] img {
+    width: 100%;
+}
+
+[data-role="product_item"]:hover {
+}
+[data-role="product_item"] [data-role="add_to_cart"] {
+    /*visibility: hidden;*/
+    display: inline-block;
+    width: 320px;
+    padding: 12px 0;
+    background: #0754ec;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    opacity: 0;
+    transition: opacity 0.24s ease 0.24s;
+}
+[data-role="product_item"]:hover [data-role="add_to_cart"] {
+    /*visibility: visible;*/
+    opacity: 1;
+}
+[data-role="product_item"]:hover [data-role="add_to_cart"]:hover {
+    text-decoration: underline;
+}
+[data-role="item_name"] {
+    display: block;
+    text-align: left;
+    margin-left: 12px;
+}
+[data-role="item_price_wrapper"] {
+    display: block;
+    text-align: left;
+}
+[data-role="old_item_price"] {
+    display: inline-block;
+    text-align: left;
+    color: #76747b;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: -6px;
+    text-decoration: line-through;
+}
+[data-role="item_price"] {
+    display: inline-block;
+    text-align: left;
+    color: #76747b;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+[data-role="item_image_2"] {
+    display: none;
+}
+
+
+[data-cat="candles"] [data-role="product_item"]{
+   width: 600px;
+
+}
+[data-cat="candles"] [data-role="product_item"] [data-role="item_name"]{
+    margin-top: 16px;
+}
+[data-cat="candles"] [data-role="product_item"] [data-role="add_to_cart"]{
+    width: 600px;
+}
+/* detail section */
+[data-role="product_detail_container"]{
+    display: table;
+    width: 100%;
+}
+[data-role="detail_thumb_wrapper"]{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+[data-role="detail_thumb_wrapper"] img{
+    margin-top: 12px;
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+[data-role="detail_image_wrapper"]{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+[data-role="detail_image_wrapper"] > img{
+    width: 100%;
+}
+[data-role="detail_text_wrapper"]{
+    width: calc(100% - 524px);
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+h1[data-role="detail_name"]{
+    display: block;
+    font-size: 28px;
+    line-height: 32px;
+}
+[data-role="detail_tagline"]{
+    background-color: dodgerblue;
+}
+[data-role="detail_price"]{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 20px;
+
+}
+[data-role="old_detail_price"]{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 20px;
+    text-decoration: line-through;
+        margin-right: 8px;
+}
+[data-role="detail_description"]{
+    white-space: pre-wrap;
+    margin-top: 24px;
+    width: 92%;
+    line-height: 24px;
+}
+[data-role="detail_description"] p strong{
+    font-weight: bold;
+}
+[data-role="detail_description"] ul,
+[data-role="detail_description"] ol {
+    list-style: disc;
+    margin: 2px;
+    padding-left: 28px;
+    line-height: 1px;
+    display: inline-block;
+}
+
+[data-role="detail_description"] li {
+    display: list-item;
+    margin: 0px 32px;
+    line-height: normal;
+}
+
+[data-role="detail_description"] p {
+    margin: 18px 0px;
+    font-size: 15px;
+}
+[data-role="add_to_cart_detail"]{
+    background-color: blue;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 92%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 24px;
+    line-height: 36px;
+    font-size: 15px;
+}
+[data-role="add_to_cart_detail"]:hover{
+    background-color: #76747B;
+}
+
+

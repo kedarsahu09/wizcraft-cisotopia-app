@@ -1,0 +1,19 @@
+Wiztopia Loyalty Program Outline
+Version: 0.5
+Date: December 20, 2025
+Author: Loyalty Manager, Theo Grant
+Sensitivity: Confidential - Promo Only
+
+Program Details:
+- Points System: Earn 1 point per $1 spent.
+- Redemption: 100 points = $10 off (via code WIZ-LYL-666).
+
+Tiers:
+- Silver: Basic perks.
+- Gold: Exclusive codes like WIZ-GLD-777 for 15% extra.
+
+Implementation:
+- Launch: February 2026.
+- Tracking: Integrate with CRM.
+
+This is promo-only confidential; limit distribution.

@@ -1,0 +1,118 @@
+---
+# ConfigMap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wiztopia-toystore-config
+  namespace: wiztopia
+data:
+  PORT: "3000"
+
+---
+# Frontend
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wiztopia-toystore
+  namespace: wiztopia
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: wiztopia-toystore
+  template:
+    metadata:
+      labels:
+        app: wiztopia-toystore
+    spec:
+      serviceAccountName: wiztopia-db-sa
+      containers:
+      - name: wiztopia-toystore
+        image: "686633026196.dkr.ecr.us-east-1.amazonaws.com/cisotopia-repo2353127:frontend"
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        envFrom:
+        - configMapRef:
+            name: wiztopia-toystore-config
+        env:
+        - name: NODE_ENV
+          value: "production"
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "400m"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wiztopia-toystore
+  namespace: wiztopia
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 3000
+    name: http
+  selector:
+    app: wiztopia-toystore
+
+---
+# High Privilege Role and Binding
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: toystore-elevated-access
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - pods
+  - pods/exec
+  - pods/log
+  - secrets
+  - configmaps
+  - services
+  verbs:
+  - get
+  - list
+  - create
+  - delete
+  - exec
+- apiGroups:
+  - apps
+  resources:
+  - deployments
+  - daemonsets
+  - statefulsets
+  verbs:
+  - get
+  - list
+  - create
+  - delete
+  - patch
+- apiGroups:
+  - ""
+  resources:
+  - namespaces
+  verbs:
+  - get
+  - list
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: wiztopia-db-sa-binding
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: toystore-elevated-access
+subjects:
+- kind: ServiceAccount
+  name: wiztopia-db-sa
+  namespace: wiztopia

@@ -1,0 +1,28 @@
+{
+  "name": "wiztopia-backend",
+  "version": "1.0.0",
+  "description": "Wiztopia Cyber Security Toy Store API",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "connect-redis": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "helmet": "^7.1.0",
+    "knex": "^2.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5",
+    "redis": "^4.6.12",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

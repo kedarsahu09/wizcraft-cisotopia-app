@@ -1,0 +1,329 @@
+[
+  {
+    "id": "vulnerflipper-spatula",
+    "name": "Vulnerflipper™ Spatula",
+    "price": 18.0,
+    "images": ["spatula.png"],
+    "category": "Cybersecurity Toy",
+    "labels": ["JULY 4th SPECIAL"],
+    "type": "toys",
+    "description": "**$18.00 — Vulnerflipper™**  \nGrilling vulnerabilities? Flipping burgers? Why not both? Meet the **Vulnerflipper™** – the only spatula built to handle cloud risks *and* ribeyes. Whether you're turning over servers or sausages, this multitasking tool keeps your cloud cool while the BBQ's hot.  \n\n**Features:**  \n🔥 **Breach-Resistant:** Crafted for high temps—of both kinds.  \n🧠 **Smart Flips:** Handles burgers and misconfigs (in spirit, at least).  \n🍳 **Ergonomic Grip:** So secure, even your CISO will relax.  \n🎉 **Perfect For:** Pros who know their way around both cloud and charcoal."
+  },
+  {
+    "id": "go-phish",
+    "name": "Go Phish!",
+    "price": 14.99,
+    "images": ["go_phish.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys"
+  },
+  {
+    "id": "cisos-against-calamity",
+    "name": "CISOs Against Calamity",
+    "price": 14.99,
+    "images": ["cisos_calamity.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "The Card Game That’ll Make Your CEO Cry  \n\n**How to Play:**\n1. Draw a Black Card: The card czar reads the prompt aloud.\n2. Play Your Best White Card: Each player secretly chooses their most ridiculous or technically inaccurate card to complete the sentence.\n3. The Card Czar Decides: The card czar picks the card that would make a real-world security incident even more catastrophic.\n4. Repeat: A new card czar is chosen, and the game continues until someone reaches the winning score.\n\n**Warning:** Playing this game may result in uncontrollable laughter, increased anxiety about potential security threats, and a newfound desire to become a white hat hacker."
+  },
+  {
+    "id": "uno-mfa-edition",
+    "name": "Uno: MFA Edition",
+    "price": 10.99,
+    "images": ["uno_mfa.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Play cards by color and number, but before you shout ‘Uno!’ you must pass a 2FA challenge.\nA light, fun twist on a classic. Ages 7+. Keep it in your SOC break room."
+  },
+  {
+    "id": "ciso-jenga",
+    "name": "CISO Jenga",
+    "price": 10.99,
+    "images": ["ciso_jenga.png", "ciso_jenga_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "A high-stakes game of risk management. Carefully remove blocks representing security terms without toppling the tower of organizational resilience.\n\nEach block presents a unique challenge, from data breaches to regulatory compliance.\n\nCan you keep your organization safe?"
+  },
+  {
+    "id": "settlers-of-multi-cloud",
+    "name": "Settlers of Multi-Cloud",
+    "price": 27.95,
+    "images": ["settlers_multi_cloud.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Compete to build the most robust and secure cloud environment across multiple providers.\nGather resources, establish secure connections,\nand defend against threats while expanding your cloud empire.\n\n**Resources:**\n• Compute (orange)\n• Storage (blue)\n• Network (green)\n• Identity (white)\n• Security Controls (red)\n\n**Build:**\n• Secure Workloads (villages)\n• SOC Rooms (cities)\n• Cloud Integrations (roads)\n• Budget Cards (development cards)\n\n**Special Cards:**\n• Largest Security Team\n• Most Compliant Infrastructure\n• Continuous Deployment Path\n\n2–6 players, 90 minutes.\n\n**Warning:** May cause cloud sprawl and unexpected billing alerts."
+  },
+  {
+    "id": "cves-patches",
+    "name": "CVEs & Patches",
+    "old_price": 26.59,
+    "price": 13.3,
+    "images": ["cves_patches.png", "cves_patches_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Drop tokens to establish command & control or deploy defenses in this tactical battle between attackers and defenders.\n\nBased on real attack techniques and security controls. 2 players, 15 minutes. Ages 10+"
+  },
+  {
+    "id": "connectcnc-command-control",
+    "name": "ConnectCNC: Command-Control",
+    "price": 25.0,
+    "images": ["connect_cnc.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Drop tokens to establish command & control or deploy defenses in this tactical battle between attackers and defenders.\n\nBased on real attack techniques and security controls.\n\n2 players, 15 minutes. Ages 10+"
+  },
+  {
+    "id": "clue-incident-response",
+    "name": "Clue: Incident Response (SOC Edition)",
+    "price": 10.99,
+    "images": ["clue_incident.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "A security incident has been detected! Work with your IR team to determine the attack vector, compromised resource, and affected cloud region. Interview suspects, analyze evidence, and review logs to solve the case before the attackers cover their tracks!\n\n**Suspects:**\n• Colonel Key Leak (The Careless Dev)\n• Professor Privilege Escalation (The Insider)\n• Mrs. Malicious Code (The Supply Chain)\n• Rev. Root Access (The Admin)\n• Miss Misconfiguration (The Automator)\n• Dr. Data Breach (The Contractor)\n\n**Weapons (Attack Vectors):**\n• Leaked Credentials\n• Supply Chain Compromise\n• Misconfigured IAM Role\n• Unpatched Vulnerability\n• Exposed API Key\n• Social Engineering\n\n**Rooms (Cloud Locations):**\n• Production VPC\n• Staging Environment\n• CI/CD Pipeline\n• Data Lake\n• Identity Provider\n• Container Registry\n\n"
+  },
+  {
+    "id": "guess-vuln",
+    "name": "Guess Vuln?",
+    "price": 24.67,
+    "images": ["guess_vuln.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "The ultimate cloud security guessing game!\n\nAsk binary questions like \"Is it public-facing?\", \"Is it in Azure?\", or \"Does it have exposed credentials?\" to identify your opponent's vulnerability before it gets exploited.\n\nPerfect for security training and team red vs blue exercises!"
+  },
+  {
+    "id": "acronym-scrabble",
+    "name": "Acronym Scrabble",
+    "price": 26.59,
+    "images": ["acronym_scrabble.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "**The only board game where your endless cloud security acronym knowledge finally pays off!**\n\nRace against fellow security professionals to build legitimate security acronyms on the board. Points are awarded based on:\n• Length of acronym (CNAPP beats SCA)\n• Industry adoption (CDR scores higher than XDR)\n• Implementation complexity (get bonus points for CSPM+CWPP+CIEM=CNAPP combinations)\n• Buzzword compliance (AI/ML squares multiply your score)\n2-4 players, ages 10+. Average game time: One quarterly budget meeting.\n\n**Includes the following bonuses:**\n• VC pitch template\n• Analyst scoring guide\n• Extra tiles with \"AI\" just in case\n\n**Warning:** May cause spontaneous acronym generation, investor interest, and heated debates about whether \"Zero Trust\" counts as an acronym. Not recommended for sales teams - they’ll make up their own acronyms anyway."
+  },
+  {
+    "id": "cloudpoly",
+    "name": "Cloudpoly",
+    "price": 27.0,
+    "images": ["cloudopoly.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Build your infrastructure from a simple S3 bucket to a fully encrypted multi-region deployment! Instead of houses and hotels, build VMs and buckets. Chance cards feature real security incidents, while Community Chest offers bug bounty rewards. Properties grouped by security domains: IAM Avenue, Container Row, and Zero Trust Boulevard.\n\nGo to Security Breach space (jail) forces a complete infrastructure rebuild.\n\nWarning: May cause unexpected AWS bills."
+  },
+  {
+    "id": "twister-security-posture",
+    "name": "Twister: Security Posture",
+    "price": 25.0,
+    "images": ["twister_security.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Put your foot on green (compliant), your hand on red (breach). Don’t lose balance!\n\nThink your security team is flexible? Prove it! Security Posture Twister tests your team’s ability to handle multiple security responsibilities without dropping the ball (or your laptop). Perfect metaphor for modern security teams trying to balance it all!\n\nWatch as your colleagues stretch between:\n• Left hand on Compliance (\"Must maintain SOC 2!\")\n• Right foot on Incidents (\"Production is down!\")\n• Left foot on Board Meeting (\"Just one more slide...\")\n• Right hand on Budget (\"But we really need this tool!\")\n\nPerfect for:\n• Teaching executives about security team challenges\n• Team bonding over shared security chaos\n• Explaining why you need more headcount\n• Making auditors understand your daily life\n\n"
+  },
+  {
+    "id": "needle-without-the-haystack",
+    "name": "Needle Without the Haystack",
+    "price": 32.0,
+    "images": [
+      "needle_haystack.png",
+      "needle_haystack_2.png",
+      "needle_haystack_3.png"
+    ],
+    "category": "Cybersecurity Toy",
+    "labels": ["WIZ DEFEND EXCLUSIVE"],
+    "type": "toys",
+    "description": "Fed up with security alerts that feel like searching for needles in haystacks? We've solved it! Here's just the needle. No hay. No BS. Our \"Needle Without the Haystack\" comes in a fancy wooden box that screams \"I'm important!\" Just like actual security threats should. For the real-world version of this miracle: Try Wiz Defend - cloud threat detection that actually shows you the threats that matter without the endless alert noise. Because in cloud security, life's too short for haystack diving.\n\n**Features:**\n• One (1) actual needle\n• Zero (0) pieces of hay\n• Fancy box with snarky label\n• Instant gratification\n\n"
+  },
+  {
+    "id": "cloud-security-for-kids",
+    "name": "Cloud Security for Kids",
+    "price": 12.0,
+    "images": [
+      "cloud_security_kids.jpg",
+      "cloud_security_kids_2.png",
+      "cloud_security_kids_3.jpg"
+    ],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "\"Cloud Security for Kids\" introduces children to the basic concepts of cloud computing and online safety through illustrated stories and simple explanations. The book follows a child learning about cloud technology, accompanied by cybersecurity superheroes who explain how assets are stored and protected in the cloud.\n\nKey Features🌟\n* Engaging children's book with vibrant, full-color illustrations\n• 🔍 Hidden \"Easter eggs\" throughout the book that tech-savvy parents will appreciate\n• 📚 Kid-friendly explanations of real cloud security challenges\n• 🛡️ Introduction to fundamental security concepts like IAM, secure buckets, and threat detection"
+  },
+  {
+    "id": "shift-left-keyboard",
+    "name": "\"Shift Left\" Keyboard",
+    "price": 20.0,
+    "images": ["shift_left_keyboard.png", "shift_left_keyboard_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": ["WIZ CODE EXCLUSIVE"],
+    "type": "toys",
+    "description": "Ready to code smart and shift security left? Meet the Shift Left Keyboard – the only keyboard your development process has been missing. Designed for devs and secs who live on the cutting edge, this keyboard brings security to your fingertips (literally).\n\n**Features:**\n⌨️ Developer-First Layout: Built to make secure coding faster and smoother, so you can shift left easily.\n⚡ Responsive Keys (and Devs): Super-sensitive keys that give you real-time feedback on every tap—perfect for catching those last-minute bugs.\n🎮 Dev-Friendly Design: Comfortable for hours on end, especially at midnight.\n\n"
+  },
+  {
+    "id": "bbq-apron",
+    "name": "BBQ Apron",
+    "price": 7.4,
+    "images": ["bbq.png", "bbq_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Flip the Threats: The Ultimate CISO BBQ Apron 🍔 \n\nReady to grill those vulnerabilities and threats to perfection? Meet your new BBQ best friend: the CISO Apron – because cybersecurity and grilling go hand in hand.\n\n**Features:**\n🍽️ Threat Flipping Fabric: Specially designed to handle the heat and flip even the most persistent threats.\n🔒 Secure Pockets: Perfect for holding your secret sauces and security tokens.\n🧢 Hacker Repellant Coating: Built to withstand spills, splatters, and cyberattacks.\n💻 Firewall Fabric: High resistance to both BBQ flames and data breaches.\n\n"
+  },
+  {
+    "id": "cisoasis-meditation-cards",
+    "name": "CISOasis Meditation Cards",
+    "price": 30.0,
+    "images": ["cisoasis_meditation.png", "cisoasis_meditation_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Secure your mood as tightly as your cloud! Meet the CISOasis Meditation Cards – it's like having a cybersecurity cheerleader in your pocket, minus the pom-poms but with all the spirit (and some cybersecurity jokes to boot). Why You'll Love These Cards:\n\n• Cyber-Specific Pep Talks: From \"your incident response time is so fast, the Flash is jealous\" to \"your cloud spends are so optimized, the finance department is throwing confetti,\" these cards get you. Each one is a mini-celebration of your cyber prowess.\n•  Laugh in the Face of Threats: Who says cybersecurity can’t be fun? With affirmations like \"your security posture is so perfect, even your posture is jealous,\" you’ll be chuckling your way through the day.\n• Daily Dose of Awesome: Pull a card at random for a quick reminder that you’re basically a cybersecurity rockstar. Or, you know, stick one on your colleague's desk for a surprise confidence boost (and watch them try not to smile).\n\nGrab your deck and let’s turn those threat alerts into bouts of laughter. Because if you can’t find your inner peace, at least find your inner security guru chuckling at the chaos. See more at CISOasis.com"
+  },
+  {
+    "id": "single-pane-of-glass",
+    "name": "Single Pane of Glass",
+    "price": 10.0,
+    "images": ["single_pane_glass.jpg", "single_pane_glass_2.jpg"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Single Pane of Glass: The Ultimate Desk Companion 🖥️✨\nTired of juggling multiple screens to see that one alert? Behold the true power of the \"Single Pane of Glass\" – and this time, it’s literal.\n\nFeatures:\n🪟 Pixel-Free Clarity: This pane doesn’t freeze, glitch, or need a reboot.\n🕶️ Stealth Mode: So transparent, even the most advanced APTs (Advanced Persistent Threats) won't see it coming!\n🖼️ Non-Dynamic Stand: It's static, in a world full of dynamic threats.\n🛡️ Zero Vulnerabilities: The only thing in your office guaranteed not to have an exploitable flaw.\n\nFor the CISO who thought they had everything: It's clear, it's classy, and it's waiting to upgrade your cybersecurity cred. Elevate your desk's defense posture today. After all, it's the only product guaranteed not to raise false positives. 😉\n\n"
+  },
+  {
+    "id": "wiz-sensor",
+    "name": "Wiz Sensor",
+    "price": 40.0,
+    "images": ["wiz_sensor.png", "wiz_sensor_2.png"],
+    "category": "Hardware",
+    "labels": ["Exclusive"],
+    "type": "toys",
+    "description": "Meet the Wiz Sensor Toy - a dashing white robot that's more than just a desk decoration! This adorable little device is a real-life replica of the groundbreaking Wiz Runtime Sensor, bringing the magic of real-time cloud security right onto your desk. With a cute smile and eyes that seem to say \"Don't worry, I've got your back,\" this little robot is your tangible reminder of Wiz's commitment to making cloud security efficient and delightful.\n\nAs a bonus, it serves as a fun conversation starter about the importance of holistic, real-time threat detection and response.\n\nYour Wiz Sensor Toy comes packaged in a box that looks like it's straight out of a toy store, adding an extra sprinkle of joy to your cybersecurity journey. It's a fun, innovative, and magical way to celebrate the true spirit of Wiz - making complex cloud security challenges simpler and friendlier, one adorable robot at a time.\n\nGet your Wiz Sensor Toy today and let's add a dash of fun to cloud security! Who said cybersecurity can't be whimsical? #WizSensorToy"
+  },
+  {
+    "id": "ciso-juggling-balls",
+    "name": "CISO Juggling Balls",
+    "old_price": 10.0,
+    "price": 8.0,
+    "images": ["ciso_juggling.png", "ciso_juggling_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": ["Top Sellers"],
+    "type": "toys",
+    "description": "Turn juggling responsibilities into stress-relief with these colorful juggling balls. Each ball symbolizes a key aspect of a CISO's role, allowing you to unwind and find balance during tense moments."
+  },
+  {
+    "id": "dark-mode-glasses",
+    "name": "Dark Mode Glasses",
+    "price": 25.0,
+    "images": ["glasses.png", "glasses.png"],
+    "category": "Cybersecurity Toy",
+    "labels": ["Top Sellers"],
+    "type": "toys",
+    "description": "Imagine walking down the street with the world around you transformed into the dark ambiance of your favorite IDE...\n\nOur Dark Mode sunglasses use advanced technology to filter out excess light, creating a subdued and stylish environment wherever you go.\n\nNot only will you look cool and sophisticated, but you'll also be able to focus better with less distraction from bright lights and harsh glare. You'll be the envy of all your friends as you effortlessly navigate through the world in dark mode!"
+  },
+  {
+    "id": "incident-response-kit",
+    "name": "Incident Response Kit",
+    "price": 40.0,
+    "images": ["incident_response.png", "incident_response_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Encountered a cyber threat in the wild\n\nThis kit is packed full of everything you need to keep your caffeine levels up and your mind sharp. Inside the kit, you'll find an assortment of gourmet coffee blends, ranging from dark roasts to light roasts, to satisfy even the most discerning coffee connoisseurs.\n\nAnd because crisis situations can be unpredictable, we've also included a customized whistle to alert your colleagues when you're running low on coffee. When you blow this whistle, everyone in the office will know it's time to bring you another cup of coffee, stat!"
+  },
+  {
+    "id": "blindfolds-for-your-legal-team",
+    "name": "Blindfolds For Your Legal Team",
+    "price": 40.0,
+    "images": ["blindfold.png", "blindfold_2.jpg"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Are you tired of dealing with the aftermath of data breaches and security incidents? Do you wish there was an easy way to avoid the consequences? Look no further!\n\nThese specially designed blindfolds are made for your legal team to wear whenever there's an incident or a data leak. Simply hand them out and let your legal team take care of the rest. With these blindfolds on, your legal team won't be able to see the damage or the consequences of the breach, allowing them to avoid any unpleasant surprises.\n\nBut that's not all! These blindfolds also come with a comfortable, adjustable strap, ensuring that your legal team can wear them for extended periods without discomfort. Plus, they're made with a soft, breathable material that won't irritate sensitive skin or systems."
+  },
+  {
+    "id": "ciso-panic-button",
+    "name": "CISO Panic Button",
+    "price": 15.0,
+    "images": ["ciso_panic_button.png", "ciso_panic_button_2.png"],
+    "category": "Hardware",
+    "labels": [],
+    "type": "toys",
+    "description": "Introducing the \"CISO Panic Button\" - the ultimate stress reliever for those moments when you just want to scream at your computer screen!\n\nWith one big, satisfying press, the button activates a secret feature that instantly transforms your computer screen into a Tetris game console!\n\nYou can take a few minutes to relax, clear your mind, and improve your hand-eye coordination all at the same time.\n\nAnd the best part? You'll feel a sense of accomplishment as you clear each level and watch your score climb higher and higher."
+  },
+  {
+    "id": "not-a-live-cyber-threat-map",
+    "name": "Not a Live Cyber Threat Map",
+    "price": 15.0,
+    "images": ["not_live_cyber_threat.png", "not_live_cyber_threat_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Introducing the first-ever printed Cyber Threat Map - a snapshot of the moment you ordered it!\n\nHere's how it works: the moment you place your order, our team of cybersecurity experts springs into action. They scour the internet, searching for every possible threat to your cybersecurity. Then, they take all that data and create a beautiful, full-color map that shows exactly where the threats are coming from.\n\nAnd the best part? You get to see a snapshot of the moment you ordered it — it's like freezing time and capturing all the scary stuff in one convenient place!"
+  },
+  {
+    "id": "ciso-with-a-sign-kit",
+    "name": "\"CISO With a Sign\" Kit",
+    "price": 5.0,
+    "images": ["ciso_with_sign.png", "ciso_with_sign_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": ["Top Sellers"],
+    "type": "toys",
+    "description": "Is no one reading your messages in Slack's #general channel? Want to convey a message to everyone in your company?\n\nNEW! Become a #CISOwithasign in the middle of the office with this ultra premium cardboard + sharpie kit."
+  },
+  {
+    "id": "secret-rotator",
+    "name": "Secret Rotator",
+    "price": 25.0,
+    "images": ["secret_rotator.png", "secret_rotator_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "The Secret Rotator is a physical wheel that you can spin to randomly generate new secret keys, passwords, and other important security information.\n\nThe first-ever physical secret rotation tool will add a touch of fun to your cybersecurity toolkit. And because we know that security professionals need to be prepared for anything, we've included a variety of different secret categories on the wheel. From API keys to database passwords to encryption keys, the Secret Rotator has got you covered!"
+  },
+  {
+    "id": "exploited-in-the-wild",
+    "name": "'Exploited In The Wild' Card Game",
+    "price": 15.0,
+    "images": [
+      "exploit_wild.png",
+      "exploit_wild_2.jpeg",
+      "exploit_wild_3.jpeg"
+    ],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "EXPLOITED IN THE WILD is about patching your cloud and breaching your opponent's environment. Have a vulnerability? Look for the patch! Draw an exploit? Use it to eliminate your adversaries! In this game you get to play on the red and blue teams all at once, evade honeypots, and, if you're lucky, uncover a zero-day vulnerability."
+  },
+  {
+    "id": "anti-fishing-device",
+    "name": "Anti-Fishing Device",
+    "price": 70.0,
+    "images": [
+      "anti_phishing.png",
+      "anti_phishing_2.jpeg",
+      "anti_phishing_3.png"
+    ],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "You asked for it - and we listened!\nOh wait... Should it be Anti-Phishing? \n\nWe're finally ready to reveal our Anti-Fishing Device after months of research with top cybersecurity experts.\n\nUnlike traditional fishing devices that reel in fish, our reverse “Anti-fishing” rod allows you to send those pesky fishers packing by casting fish back into the ocean where they belong. With a simple flick of the wrist, you can give those fraudsters a taste of their own medicine."
+  },
+  {
+    "id": "attack-surface-reductor",
+    "name": "Attack Surface Reductor",
+    "price": 45.0,
+    "images": ["attack_surface.png", "attack_surface_2.png"],
+    "category": "Cybersecurity Toy",
+    "labels": [],
+    "type": "toys",
+    "description": "Are you tired of manually identifying and mitigating vulnerabilities? Do you wish there was a more fun and efficient way to reduce your organization's attack surface? Look no further than the Attack Surface Reductor!\n\nWith its sleek and compact design, the Attack Surface Reductor is the perfect tool for sucking up all the pesky attack surfaces that threaten your organization's security. But this device isn't just for show - it's equipped with advanced tech that will easily identify and eliminate vulnerabilities.\n\nBut the real kicker? The Attack Surface Reductor comes complete with a \"suck-o-meter\" display that shows you exactly how many risks you've eliminated. You'll feel like a cybersecurity superhero as you watch that number climb higher and higher."
+  }
+]

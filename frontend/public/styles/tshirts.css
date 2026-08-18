@@ -1,0 +1,25 @@
+[data-role="main_tshirt_image"] > img {
+    width: 100%;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #ffbfff;
+    padding: 10px 0;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 12s linear infinite;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0254ec;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+}

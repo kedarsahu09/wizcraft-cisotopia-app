@@ -1,0 +1,44 @@
+[
+  {
+    "id": "public-bucket-coffee",
+    "name": "Public Bucket Roast",
+    "tagline": null,
+    "description": "For the CISO who has just discovered yet another open S3 bucket at 9 p.m. and wonders if caffeine can mitigate human error.\n\nRoast Profile:\n• Body: Medium – Silky smooth with a gentle sweetness to soften the blow of yet another misconfiguration.\n• Severity: High – Enough kick to keep you alert without the jitters of a full-blown breach.\n• Suggested Level: DevOps & Cloud Engineers – Perfect for those who live in the console.\n• Best for: Macchiato fans who want something smooth but alert.\n\nTasting Notes:\nThis blend offers a steady, reassuring warmth—reminding you that not every public exposure is mission-critical.\n\nBenefits:\n• Keeps you calm while planning the next fix before the alert wakes the whole team.\n• Pairs perfectly with late-night incident response.\n\nComplete the ritual: Tired of guessing which bucket misconfig actually matters? Pair this coffee with Wiz ASM to validate real sensitive data exposure—best enjoyed with this smooth, steady cup.",
+    "price": 30.0,
+    "stock": 10,
+    "images": ["coffee-bucket-bag.png", "coffee-bucket-label.png"],
+    "score": 0,
+    "order_index": 1,
+    "category": "Coffee",
+    "labels": [],
+    "type": "coffee"
+  },
+  {
+    "id": "decaf-coffee",
+    "name": "Wizzz Blend - Decaf",
+    "tagline": null,
+    "description": "Because you don’t need to actually stay alert with Wiz.\n\nCounting clouds instead of sheep? This blend is for the CISO who’s used to running on caffeine and zero sleep—it’s your gentle reminder that it’s okay to rest.\nWe’ve got your back (and your cloud).\n\nRoast Profile:\n• Acidity: Low-Medium – Smooth and soothing, without the sharp bite of unexpected alerts.\n• Severity: Low – Calm and reassuring, perfect for winding down.\n• Suggested Level: CISO – Tailored for leaders who carry the weight of the cloud.\n\nTasting Notes:\nThis decaf-inspired blend delivers a gentle, comforting warmth—your slow-sip moment to finally exhale.\n\nBenefits:\n• Promotes actual rest instead of restless monitoring.\n• Pairs perfectly with the peace of mind that comes from automated protection.\n\nComplete the ritual: Want to see how Wiz helps you actually get some rest? Pair this calming cup with a visit to our booth and let the security do the watching while you recharge.",
+    "price": 30.0,
+    "stock": 10,
+    "images": ["coffee-wizzzz-bag.png", "coffee-wizzzz-label.png"],
+    "score": 0,
+    "order_index": 2,
+    "category": "Coffee",
+    "labels": ["Exclusive re:Invent Edition"],
+    "type": "coffee"
+  },
+  {
+    "id": "critical-coffee",
+    "name": "Critical Roast - P1 Espresso",
+    "tagline": null,
+    "description": "For the CISO whose Slack won’t stop buzzing and whose brain feels like it’s running on empty.\n\nThis dark, bold espresso is your lifeline through the chaos—matching the bitter taste of a P1 incident. It’s the shot that fuels late-night war rooms and turns crisis into clarity.\n\nRoast Profile:\n• Body: Full – Rich and intense, coating the palate like a high-stakes alert.\n• Severity: Critical – A powerful jolt to cut through the fog of endless notifications.\n• Suggested Level: Incident Responders and On-Call Warriors – Built for those in the trenches.\n• Roast Level: Dark – Deep, bold, and unapologetic.\n\nTasting Notes:\nStraight-up strength with a lingering intensity—best for espresso lovers who need a serious wake-up call.\n\nBenefits:\n• Powers through alert overload and marathon incident response.\n• Delivers clarity when everything else is chaos.\n\nComplete the ritual: Overdosing on coffee from pure alert fatigue? Pair this bold shot with Wiz to cut through the noise—prioritizing real risks so you can focus on what truly matters.",
+    "price": 30.0,
+    "stock": 10,
+    "images": ["coffee-critical-bag.png", "coffee-critical-label.png"],
+    "score": 0,
+    "order_index": 3,
+    "category": "Coffee",
+    "labels": [],
+    "type": "coffee"
+  }
+]

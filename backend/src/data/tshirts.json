@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ciem-t-shirt",
+    "name": "CIEM T-Shirt",
+    "tagline": null,
+    "description": "CIEM T-shirt (Cloud Infrastructure Entitlement Management)\n\nMaterials:\n• 60% Wiz Code fabric – Blocks excessive permissions before they turn your cloud into an open buffet for hackers.\n• 40% Shifted Left-er threading – Dynamically adjusts to manage who can access what—because least privilege should start way before production panic mode.\n\nBenefits:\n• Stops identity chaos – Like Wiz CIEM, this shirt ensures only the right people (or non-humans) have access—because “admin for everyone” is not a security strategy.\n• Govern like a pro – Continuous permission management, even when teams forget who actually needs access.\n\nComplete the look: Perfect for your next “security review” meeting—where serious elephants discuss IAM policies while cats jump around the table in full chaos mode.",
+    "price": 100.0,
+    "stock": 10,
+    "images": ["ciem_t_shirt.png", "ciem_t_shirt_2.png", "ciem_t_shirt_3.png"],
+    "score": 0,
+    "order_index": 1,
+    "category": "Apparel",
+    "labels": [],
+    "type": "tshirts"
+  },
+  {
+    "id": "cdr-t-shirt",
+    "name": "CDR T-Shirt",
+    "tagline": null,
+    "description": "CDR T-shirt (Cloud Detection and Response)\n\nMaterials:\n• 30% Defend™ fabric – Detects multi-layer threats, even when your SOC team is over it.\n• 70% Sensor threads – Embedded with real-time runtime protection that doesn’t slow you down.\n\nBenefits:\n• Stay ahead of attacks – Like Wiz Defend, this shirt helps teams respond before a breach becomes the incident of the quarter.\n• Detects threats across layers – Identity, data, network—yep, all of it.\n• SOC & chicken-friendly speed – Speeds up investigations so you can stop refreshing that incident ticket.\n\nComplete the look: Wear it to stay protected while a stressed-out office chicken avoids eye contact.",
+    "price": 100.0,
+    "stock": 10,
+    "images": ["cdr_t_shirt.png", "cdr_t_shirt_2.png", "cdr_t_shirt_3.png"],
+    "score": 0,
+    "order_index": 2,
+    "category": "Apparel",
+    "labels": []
+  },
+  {
+    "id": "dspm-t-shirt",
+    "name": "DSPM T-Shirt",
+    "tagline": null,
+    "description": "DSPM T-shirt (Data Security Posture Management)\n\nMaterials:\n• 70% Smart cloud fiber – Scans and classifies sensitive data faster than you can say \"Why is this S3 bucket public?\"\n• 30% Cloudy silk™ weave – Smooths out compliance pains so you don’t wake up in a GDPR nightmare.\n\nBenefits:\n• Finds sensitive data before hackers or ducks do – Just like Wiz DSPM, this shirt knows where your data is hiding.\n• Compliance made... less painful – Automates security checks so your auditors aren’t sending daily Slack messages.\n\nComplete the look: Top it off with ducks in office uniforms frantically sorting data breaches. Because why should only humans have data breaches when ducks can do it with flair?",
+    "price": 100.0,
+    "stock": 10,
+    "images": ["dspm_t_shirt.png", "dspm_t_shirt_2.png", "dspm_t_shirt_3.png"],
+    "score": 0,
+    "order_index": 3,
+    "category": "Apparel",
+    "labels": []
+  },
+  {
+    "id": "cwpp-t-shirt",
+    "name": "CWPP T-Shirt",
+    "tagline": null,
+    "description": "CWPP T-shirt (Cloud Workload Protection Platform)\n\nMaterials:\n• 50% Defend mesh™ – Blocks vulnerabilities, malware, and misconfigurations before they wreak havoc.\n• 50% Runtime sensor™ fiber – Continuously monitors workloads like a paranoid SOC analyst.\n\nBenefits:\n• Zero trust, zero problem corgi style – Like Wiz Defend, this shirt reduces attack surfaces across VMs, containers, and serverless workloads.\n• Threat detection on auto-pilot – Real-time monitoring, so you’re alerted before things go nuclear.\n• Shift-left approved – Finds issues before production, because fixing them later is painful.\n\nComplete the look: Best paired with a herd of corgis happily ignoring critical threats \"Short legs = can't reach problem.\"",
+    "price": 100.0,
+    "stock": 10,
+    "images": ["cwpp_t_shirt.png", "cwpp_t_shirt_2.png", "cwpp_t_shirt_3.png"],
+    "score": 0,
+    "order_index": 4,
+    "category": "Apparel",
+    "labels": []
+  },
+  {
+    "id": "aspm-t-shirt",
+    "name": "ASPM T-Shirt",
+    "tagline": null,
+    "description": "ASPM T-shirt (Application Security Posture Management)\n\nMaterials:\n• 40% Wiz Code™ weave – Continuously scans for vulnerabilities across the SDLC, unlike that one dev who swears they'll fix it later.\n• 60% Shifted Left-er threading – Dynamically adjusts to manage who can access what—because least privilege should start way before production panic mode.\n\nBenefits:\n• Visibility across the SDLC – Like Wiz Code, this shirt helps spot security issues before they reach prod (or your inbox).\n• Strengthens security posture – Because \"we'll fix it later\" is not a security strategy.\n\nComplete the look: Wear it to stay protected as angry sharks patrol the waters, scanning for vulnerabilities. Because in security, you’re either the hunter… or the hunted.",
+    "price": 100.0,
+    "stock": 10,
+    "images": ["aspm_t_shirt.png", "aspm_t_shirt_2.png", "aspm_t_shirt_3.png"],
+    "score": 0,
+    "order_index": 5,
+    "category": "Apparel",
+    "labels": []
+  },
+  {
+    "id": "aispm-t-shirt",
+    "name": "AI-SPM T-Shirt",
+    "tagline": null,
+    "description": "AI-SPM T-shirt (AI Security Posture Management)\n\nMaterials:\n• 90% AI-BOM™ fiber – Provides full-stack AI visibility, spotting every AI service, SDK, and rogue experiment before it starts drafting your resignation letter.\n• 10% Config mesh – Eliminates misconfigurations and attack paths quickly.\n\nBenefits:\n• Ensures every AI service, SDK, and technology is accounted for (no more \"wait, we’re using AI?\" moments).\n• AI pipelines should be optimized, not crawling with problems.\n\nComplete the look: Pair with an existential crisis over AI taking over your security posture.",
+    "price": 100.0,
+    "stock": 10,
+    "images": [
+      "aispm_t_shirt.png",
+      "aispm_t_shirt_2.png",
+      "aispm_t_shirt_3.png"
+    ],
+    "score": 0,
+    "order_index": 6,
+    "category": "Apparel",
+    "labels": []
+  },
+  {
+    "id": "cspm-t-shirt",
+    "name": "CSPM T-Shirt",
+    "tagline": null,
+    "description": "CSPM T-shirt (Cloud Security Posture Management)\n\nMaterials:\n• 50% Visibility fiber – Ensures full transparency into every cloud resource (because “unknown assets” is just another way to say “breach waiting to happen”).\n• 50% Elastic thread – Stretches to meet over 1,400 compliance frameworks without breaking—unlike your patience during an audit.\n\nBenefits:\n• Full coverage, no surprises – Like Wiz Cloud CSPM, this shirt ensures no cloud resource goes unnoticed (or unprotected).\n• Breathe easy, alert-free – Reduces alert fatigue by highlighting only the misconfigurations that matter—because your inbox has suffered enough.\n\nComplete the look: Wear it with confidence while two office chameleons argue if the \"distracted boyfriend\" meme is about multi-cloud or an exposed S3 bucket—right as the printer crashes again.",
+    "price": 100.0,
+    "stock": 10,
+    "images": ["cspm_t_shirt.png", "cspm_t_shirt_2.png", "cspm_t_shirt_3.png"],
+    "score": 0,
+    "order_index": 7,
+    "category": "Apparel",
+    "labels": []
+  }
+]

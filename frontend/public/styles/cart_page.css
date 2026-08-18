@@ -1,0 +1,87 @@
+[data-role="cart_page_wrapper"]{
+    text-align: center;
+    width: 940px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+[data-role="cart_page_wrapper"] > h1{
+	margin-top: 48px;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+[data-role="cart_page_wrapper"] > h2{
+margin: 0 16px 12px 16px;
+    font-size: 22px;
+}
+[data-role="cart_page_wrapper"] > img{
+	width: 92%;
+    margin: 12px 0 36px 0;
+}
+[data-role="cart_page_wrapper"] > p{
+	margin: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 60%;
+    display: inline-block;
+}
+[data-role="svg_arrow"]{
+	position: absolute;
+    bottom: 124px;
+    right: 137px;
+    transform: rotate(56deg);
+    width: 95px;
+}
+[data-role="email_form"]{
+	text-align: left;
+    width: 50%;
+    margin: 24px auto;
+}
+[data-role="email_form"] label{
+	margin-left: 12px;
+	font-size: 14px;
+}
+[data-role="email_form"] input[type="submit"]{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    background-color: #0254ec;
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 20px 0px;
+    padding: 8px 0px;
+    opacity: 1;
+}
+[data-role="email_form"] input[type="submit"]:hover{
+	opacity: 0.8;
+}
+[data-role="email_input"]{
+	border: 2px solid #e0e7f1;
+    border-radius: 8px;
+    padding: 11px 16px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 90%;
+    display: block;
+	margin: 12px 24px 12px 12px;
+}
+[data-role="email_input"]:focus,
+[data-role="email_input"]:focus-within,
+[data-role="email_input"]:active{
+	border-color: black;
+}
+
+[data-role="agree_text"]{
+	font-size: 12px;
+    margin: 12px;
+    font-weight: 100;
+    line-height: 16px;
+}
+
+[data-role="agree_text"] a{
+	color:  #0254ec;
+	font-weight: bold;
+}
+
